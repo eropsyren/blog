@@ -1,0 +1,21 @@
+* {
+	font-family: 'Roboto Mono', monospace;
+}
+
+body {
+	background-color: #022C43;
+	color: white;
+}
+
+pre {
+	background-color: #115173;
+	border-radius: 3px;
+	padding: 0 3px;
+	white-space: pre-wrap;
+}
+
+code {
+	background-color: #115173;
+	border-radius: 3px;
+	padding: 0 3px;
+}
