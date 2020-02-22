@@ -16,9 +16,16 @@ body, pre, code {
 	line-height: 200%;
 }
 
+pre, code {
+	background-color: #053F5E;
+	border-radius: 9px;
+	line-height: 160%;
+	padding: .5vh .5vw;
+}
+
 header, article, footer {
-	padding-right: 15vw;
-	padding-left: 15vw;
+	padding-right: 10vw;
+	padding-left: 10vw;
 }
 
 a {
@@ -36,14 +43,15 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 100%;
 }
 
-hr {
-	color: #FFd700;
+h6 {
+	margin-bottom: 1vh;
 }
 
-pre, code {
-	background-color: #115173;
-	border-radius: 3px;
-	padding: 0 3px;
+hr {
+	color: #FFd700;
+	background-color: #FFD700;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
 }
 
 .dark-text {

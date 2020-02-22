@@ -4,8 +4,8 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap">
 	<meta charset="UTF-8">
 	<title>eropsyren's blog</title>
-	<link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="./prettyprint.css">
+	<link rel="stylesheet" href="./style.css">
 	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 </head>
 <body>
@@ -18,7 +18,6 @@
 	<article>
 		<h2>Title</h2>
 		<h6 class="dark-text">01/01/2020</h6>
-		<div>
 			<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis molestie tortor. Vivamus id nulla ultricies, condimentum arcu eget, interdum leo. Praesent est dui, vulputate id velit a, sodales tincidunt nulla. Morbi interdum sem quis lacus condimentum, ut tempor massa tincidunt. Suspendisse posuere nulla vel mi hendrerit placerat. Nam elementum nibh nec dui accumsan efficitur non vitae eros. Aliquam nec ante metus. Duis a lacinia quam. Proin in fringilla est, cursus laoreet purus. Quisque pulvinar tristique rhoncus. Sed at sagittis lorem.
 			</p>
@@ -33,7 +32,19 @@ Aenean sed libero libero. Praesent elementum metus nec nisi ornare, ac efficitur
 <p>
 Cras congue tristique rhoncus. Aenean in enim nec justo tristique pretium a non nibh. Fusce id interdum tortor. Praesent nibh leo, semper vel luctus id, tempus at arcu. Duis dictum ipsum arcu, consequat bibendum neque pharetra et. Aliquam et sem ex. Vivamus fringilla, urna dignissim auctor molestie, nunc felis finibus purus, non dapibus nunc mi vitae eros. 
 </p>
-		</div>
+<pre class="prettyprint lang-c">
+	// Calculate the factorial of a number
+	int fact(int n) {
+		return n > 1 ? n * fact(n - 1) : 1;
+	}
+
+	int main() {
+		int i = 5;
+
+		return fact(i);
+	}
+</pre>
+<code>This is using the code tag</code>
 	</article>
 	<hr>
 	<footer>
