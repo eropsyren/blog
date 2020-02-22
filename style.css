@@ -13,6 +13,31 @@ body, pre, code {
 	color: white;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.1vw;
+	line-height: 200%;
+}
+
+header, article, footer {
+	padding-right: 15vw;
+	padding-left: 15vw;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 110%;
+}
+
+a:hover {
+	color: #FFD700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #FFD700;
+	line-height: 100%;
+}
+
+hr {
+	color: #FFd700;
 }
 
 pre, code {
@@ -21,3 +46,10 @@ pre, code {
 	padding: 0 3px;
 }
 
+.dark-text {
+	color: #115173;
+}
+
+.social {
+	font-size: 80%;
+}
