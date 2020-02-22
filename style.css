@@ -1,21 +1,23 @@
-* {
-	font-family: 'Roboto Mono', monospace;
+// Color Palette
+// 022C43
+// 053F5E
+// 115173
+// FFD700
+
+html {
+	background-color: #022C43;
 }
 
-body {
+body, pre, code {
 	background-color: #022C43;
 	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
 }
 
-pre {
-	background-color: #115173;
-	border-radius: 3px;
-	padding: 0 3px;
-	white-space: pre-wrap;
-}
-
-code {
+pre, code {
 	background-color: #115173;
 	border-radius: 3px;
 	padding: 0 3px;
 }
+
