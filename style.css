@@ -12,42 +12,7 @@ body, pre, code {
 	background-color: #022C43;
 	color: white;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 16px;
-}
-
-// Phones
-@media only screen and (max-width: 600px) {
-	body, pre, code {
-		font-size: 100%;
-	}
-}
-
-// Portrait tablets and large phones
-@media only screen and (min-width: 600px) {
-	body, pre, code {
-		font-size: 110%;
-	}
-}
-
-// Landscape tablets
-@media only screen and (min-width: 768px) {
-	body, pre, code {
-		font-size: 120%;
-	}
-}
-
-// Laptops or desktops
-@media only screen and (min-width: 992px) {
-	body, pre, code {
-		font-size: 130%;
-	}
-}
-
-// Large laptops and large desktops
-@media only screen and (max-width: 1200px) {
-	body, pre, code {
-		font-size: 140%;
-	}
+	font-size: 1.1vw;
 }
 
 pre, code {
