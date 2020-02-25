@@ -13,7 +13,7 @@ body, pre, code {
 	color: white;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.3vw;
-	line-height: 200%;
+	line-height: 4.5vh;
 	text-align: justify;
 }
 
@@ -31,6 +31,8 @@ pre, code {
 
 pre {
 	font-size: 100%;
+	margin-top: 4.5vh;
+	margin-bottom: 4.5vh;
 }
 
 a {
