@@ -12,7 +12,7 @@ body, pre, code {
 	background-color: #022C43;
 	color: white;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1.1vw;
+	font-size: 1.4vw;
 	line-height: 200%;
 }
 
@@ -23,9 +23,13 @@ pre, code {
 	padding: .5vh .5vw;
 }
 
+pre {
+	font-size: 100%;
+}
+
 header, article, footer {
-	padding-right: 10vw;
-	padding-left: 10vw;
+	padding-right: 9vw;
+	padding-left: 9vw;
 }
 
 a {
