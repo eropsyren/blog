@@ -7,8 +7,8 @@ body {
 	font-family: 'Roboto Mono', monospace;
 	color: white;
 	font-size: 1.2em;
-	line-height: 2em;
-	padding-bottom: 5vh;
+	line-height: 2.1em;
+	padding-bottom: 4vh;
 	padding-right: 6vw;
 	padding-left: 6vw;
 }
@@ -30,7 +30,7 @@ a:hover {
 code, pre {
 	background-color: #053F5E;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1em;
+	font-size: 1.2em;
 	border-radius: 9px;
 }
 
@@ -42,6 +42,10 @@ hr {
 	color: #FFD700;
 	margin-top: 3vh;
 	margin-bottom: 3vh;
+}
+
+.inline-code {
+	padding: 4px 6px 4px 6px;
 }
 
 .social {
