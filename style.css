@@ -8,6 +8,10 @@ html {
 	background-color: #022C43;
 }
 
+body {
+	padding-bottom: 3vh;
+}
+
 body, pre, code {
 	background-color: #022C43;
 	color: white;
